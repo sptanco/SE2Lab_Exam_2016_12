@@ -312,7 +312,7 @@ app.post('/searchByMark', function(request, response)
 	if (studentiSelezionati != null)
 	{
 		response.writeHead(200, headers);
-		response.end(JSON.stringify(segno));
+		response.end(JSON.stringify(studentiSelezionati));
 	}
 	else
 	{
